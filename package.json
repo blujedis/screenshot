@@ -1,0 +1,10 @@
+{
+  "name": "screenshot",
+  "version": "0.1.0",
+  "bin": {
+    "screenshot": "./bin/cli"
+  },
+  "dependencies": {
+    "puppeteer": "^5.0.0"
+  }
+}
