@@ -2,9 +2,14 @@
   "name": "screenshot",
   "version": "0.1.0",
   "bin": {
-    "screenshot": "./bin/cli"
+    "ssp": "./bin/cli"
   },
   "dependencies": {
-    "puppeteer": "^5.0.0"
+    "fs-extra": "^9.0.1",
+    "globby": "^11.0.1",
+    "minimatch": "^3.0.4",
+    "open": "^7.0.4",
+    "puppeteer": "^5.0.0",
+    "rimraf": "^3.0.2"
   }
 }
