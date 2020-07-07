@@ -54,9 +54,9 @@ $ ssp list
 
 ### Viewing Screenshots (view)
 
-Screenshot Puppet will look for like names, hence you could type <code>some_name<code> and the file would still be viewed. If more than one option is found a list is displayed so you can issue a new command.
+Screenshot Puppet will look for like names, hence you could type <code>some_name</code> and the file would still be viewed. If more than one option is found a list is displayed so you can issue a new command.
 
-You can also use glob type patterns to search for files for example you could also search for the below using <code>some_*.png</code>
+You can also use glob type patterns to search for files for example you could also search for the below using <code>some_\*.png</code>
 
 ```sh
 $ ssp view some_name.png
